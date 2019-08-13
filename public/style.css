@@ -1,0 +1,89 @@
+@fontface {
+    font-family: Groovy;
+    src: url(groovy.ttf);
+};
+
+.con {
+    width: 1000px;
+    height: 1000px;
+
+}
+.myButton {
+    background-color:white;
+    border-radius:12px;
+    border:6px solid;
+    width:150px;
+    height:150px;
+	transition: transform .2s;
+    margin:4px;
+    font-family: Groovy;
+
+    font-size: 20px;
+}
+.myButton:hover {
+	transform: scale(1.4);
+	cursor:pointer;
+}
+.quark {
+	border-color: #ae7cdf;
+}
+div.quark {
+    width:60px;
+    height:60px;
+    font-size: 48px;
+
+    margin:auto;
+    text-align:center;
+	vertical-align:middle;
+	line-height:60px;
+    border-radius:50%;
+    background-image: linear-gradient(to bottom right, #E7B2FC, #ae7cdf)
+}
+
+.boson {
+	border-color: #FB9471;
+}
+div.boson {
+    width:60px;
+    height:60px;
+    font-size: 48px;
+    margin:auto;
+    text-align:center;
+	vertical-align:middle;
+	line-height:60px;
+    border-radius:50%;
+    background-image: linear-gradient(to bottom right, #FB9471, #DC5A44)
+}
+
+
+.lepton {
+	border-color: #A1F96E;
+}
+div.lepton {
+    width:60px;
+    height:60px;
+    font-size: 48px;
+
+    margin:auto;
+    text-align:center;
+	vertical-align:middle;
+	line-height:60px;
+    border-radius:50%;
+    background-image: linear-gradient(to bottom right, #A1F96E, #6BCF37)
+}
+
+
+.higgs {
+	border-color: #EEBC3B;
+}
+div.higgs {
+    width:60px;
+    height:60px;
+    font-size: 48px;
+    margin:auto;
+    text-align:center;
+	vertical-align:middle;
+	line-height:60px;
+    border-radius:50%;
+    background-image: linear-gradient(to bottom right, #FFEA75, #EEBC3B)
+}
